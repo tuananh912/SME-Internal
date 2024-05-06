@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "chromeWebSecurity": false,
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.3.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "cypress": "^13.7.0"
+  }
+}
